@@ -11,4 +11,7 @@
     .out-header{
         display: none;
     }
+    .home-dialog{
+      font-size: 50px !important;
+    }
   }
