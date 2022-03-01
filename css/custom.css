@@ -2,6 +2,10 @@
     border-top: solid black 2px;
     border-bottom: solid black 2px;
   }
+.phoneimg{
+  margin-top: -400px;
+  height: 120vh;
+}
   
   @media only screen and (max-width: 600px) {
     .line {
@@ -14,4 +18,21 @@
     .home-dialog{
       font-size: 50px !important;
     }
+    .phoneimg{
+      /* width: 80% !important; */
+      /* width: 350px; */
+      height: 100vh;
+    }
+    /* .header-light #menu-btn:before {
+      color: white !important;
+      background-color: rgba(240, 248, 255, 0) !important;
+    }
+    span #menu-btn {
+      
+      background-color: rgb(10, 139, 252) !important;
+    } */
+    /* 
+    #menu-btn:hover{
+      color: rgba(255, 255, 255, 0) !important;
+    } */
   }
