@@ -1,0 +1,14 @@
+.line {
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .line {
+        border-top: none;
+        border-bottom: none;
+    }
+    .out-header{
+        display: none;
+    }
+  }
