@@ -403,6 +403,25 @@ jQuery(document).ready(function () {
 
     };
 
+    function menushow() {
+        if (mobile_menu_show == 0) {
+            jQuery('#mainmenu').slideDown();
+            jQuery('header').addClass('height-auto');
+            jQuery('.force-header-mobile').css('max-height', '100%');
+            mobile_menu_show = 1;
+            jQuery(this).removeClass("unclick");
+            jQuery(this).addClass("clicked");
+        } else {
+            $('#mainmenu').slideUp('fast', function () {
+                jQuery('header').removeClass('height-auto');
+                jQuery('.force-header-mobile').css('max-height', '80px');
+                mobile_menu_show = 0;
+            });
+            jQuery(this).removeClass("clicked");
+            jQuery(this).addClass("unclick");
+        }
+    }
+
 
     function init() {
 
@@ -1556,6 +1575,7 @@ jQuery(document).ready(function () {
         });
 
     }); // document load end //
+
 
 
     // mainmenu create span
