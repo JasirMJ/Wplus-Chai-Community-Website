@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i&amp;display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i&amp;display=swap'); */
+@font-face {
+	font-family: 'GIBold';
+	/* src: url('/assets/fonts/glacial-indifference/142d1db816ff8e0442b736c6d3af44c1/b82a02b21dda923edfc130f599d4e77d/GIBold.otf') format('opentype'); */
+	src:url('/css/font-glacial-indifference/GlacialIndifference-Bold.otf');
+	font-weight: bold;
+	font-style: normal;
+}
 
 h1,h2,h3,h4,h5,h6{
 	font-weight:600;
@@ -33,7 +40,11 @@ blockquote.testimonial-big .title,
 .ultra-big-white,
 .title-style-1
 {
-font-family: 'Poppins',Arial, Helvetica, sans-serif;
+/* font-family: 'Poppins',Arial, Helvetica, sans-serif; */
+/* font-family: 'Glacialindeference'; */
+font-family: 'GIBold';
+   /* font-weight: bold;
+   font-style: bold; */
 }
 
 
@@ -74,7 +85,7 @@ letter-spacing:5px;
 }
 
 .big-custom-1{
-	font-family:"Poppins";
+	font-family:"GIBold";
 	font-size:60px;
 	letter-spacing:0;
 	font-weight:bold;

@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&amp;display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&amp;display=swap'); */
+@font-face {
+	font-family: 'GIBold';
+	/* src: url('/assets/fonts/glacial-indifference/142d1db816ff8e0442b736c6d3af44c1/b82a02b21dda923edfc130f599d4e77d/GIBold.otf') format('opentype'); */
+	src:url('/css/font-glacial-indifference/GlacialIndifference-Bold.otf');
+	font-weight: bold;
+	font-style: normal;
+}
 
 h1,h2,h3,h4,h5,h6{
 	font-weight:600;
@@ -26,7 +33,7 @@ blockquote.testimonial-big.s2 .title,
 .de_count h3,
 .ultra-big-2,
 .tp-caption{
-font-family: 'Titillium Web',Arial, Helvetica, sans-serif;
+	font-family: 'GIBold';
 }
 
 
@@ -63,7 +70,7 @@ letter-spacing:5px;
 }
 
 .big-custom-1{
-	font-family:"Titillium Web";
+	font-family:"GIBold";
 	font-size:60px;
 	letter-spacing:0;
 	font-weight:bold;
