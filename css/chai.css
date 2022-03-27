@@ -32,6 +32,21 @@
     color: rgb(206, 206, 206);
     margin-top: 30px;
 }
+.heading-custom{
+    font-size: 42px;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.go-back{
+    margin: 60px 10px 0px 0px ;
+}
+.go-back-label{
+    font-size: 24px;
+}
+.body-content p{
+    font-family: "GIRegular";
+    font-size: 20px;
+}
 .subfooter{
     font-family: "GIRegular";
     /* font-weight: 600 ; */
@@ -64,6 +79,17 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+    .heading-custom{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 45px;
+    }
+    .go-back-label{
+        display: none;
+        font-size: 18px;
+        margin: 0px 5px 0px 0px;
+    }
     .footer-content{
         font-size: 16px;
         color: rgb(206, 206, 206);
