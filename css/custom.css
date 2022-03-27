@@ -1,9 +1,11 @@
 .line {
-    border-top: solid black 2px;
-    border-bottom: solid black 2px;
+    border-top: solid rgba(0, 0, 0, 0.5) 2px;
+    border-bottom: solid rgba(0, 0, 0, 0.5) 2px;
+    width: 90%;
+    align-items: center;
   }
 .phoneimg{
-  margin-top: -400px;
+  margin-top: -350px;
   height: 120vh;
 }
 .custom-input {

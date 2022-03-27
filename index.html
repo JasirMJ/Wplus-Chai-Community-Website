@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
 	<link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/flip.css" type="text/css">
 	<link rel="stylesheet" href="css/chai.css" type="text/css">
 
 	<!-- custom background -->
@@ -51,6 +52,7 @@
 	<link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
 	<link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
 	<link rel="stylesheet" href="css/rev-settings.css" type="text/css">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 
 	<!-- custom font -->
 	<link rel="stylesheet" href="css/font-style-2.css" type="text/css">
@@ -59,74 +61,85 @@
 <body id="homepage" class="de_light">
 
 	<div id="wrapper">
+		<center>
+			<!-- header begin -->
+			<header class="header-light header-custom">
 
-		<!-- header begin -->
-		<header class="header-light header-custom">
-
-			<div class="container">
-				<div class="row align-items-center justify-content-center">
-
-					<div class="col-lg-12 col-md-12 justify-content-center">
-						<!-- logo begin -->
-						<!-- <div id="logo"> -->
-						<a href="index.html"
-							class="d-flex flex-column col-lg-12 col-md-12 align-items-center justify-content-center">
-							<!-- <img class="logo mt-3" src="chai/logo-words.png" alt=""> -->
-							<!-- Chai Community -->
-							<label class="d-flex logo-label">Chai Community</label>
-						</a>
-						<!-- </div> -->
-						<!-- logo close -->
-
-						<!-- small button begin -->
-						<span id="menu-btn" onclick="menushow()"
-							style=" background-color: rgba(255, 255, 255, 0.493);"></span>
-						<!-- small button close -->
-					</div>
-
-				</div>
-			</div>
-
-			<div class="menu-group line mb-3">
 				<div class="container">
-					<div class="row">
+					<div class="row align-items-center justify-content-center">
 
-						<div class="col-md-12">
+						<div class="col-lg-12 col-md-12 justify-content-center">
+							<!-- logo begin -->
+							<!-- <div id="logo"> -->
+							<a href="index.html"
+								class="d-flex flex-column col-lg-12 col-md-12 align-items-center justify-content-center logo-label">
+								<!-- <img class="logo xmt-3" src="chai/logo-words.png" alt=""> -->
+								Chai Community
+								<!-- <div class="d-flex align-content-center logo-label">Chai Community</div> -->
+							</a>
+							<!-- </div> -->
+							<!-- logo close -->
 
-							<!-- mainmenu begin -->
-							<nav class="d-flex align-items-center justify-content-between">
-								<span class="out-header"><img src="chai/logo.png" /></span>
-								<ul id="mainmenu">
+							<!-- small button begin -->
+							<!-- <span id="menu-btn" onclick="menushow()"
+							style=" background-color: rgba(255, 255, 255, 0.493);"></span> -->
+							<!-- small button close -->
+						</div>
+
+					</div>
+				</div>
+
+				<div class="menu-group line mb-3">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-md-12">
+
+								<!-- mainmenu begin -->
+								<nav style="height: 50px !important;"
+									class="navigation d-flex align-items-center justify-content-between">
+									<span class="out-header"><img src="chai/logo.png" /></span>
+									<!-- <span><a href="index.html">Search</a></span>
+									<span><a href="dine.html">Dine</a></span>
+									<span><a href="club.html">Club</a></span>
+									<span><a href="help.html">Help Centre</a></span> -->
+
+									<a href="index.html">Search</a>
+									<a href="dine.html">Dine</a>
+									<a href="club.html">Club</a>
+									<a href="help.html">Help Centre</a>
+									<!-- <ul id="mainmenu">
 
 									<li><a href="index.html">Search</a></li>
 									<li><a href="dine.html">Dine</a></li>
 									<li><a href="club.html">Club</a></li>
 									<li><a href="help.html">Help Centre</a></li>
 
-								</ul>
-								<span class="out-header">
-									<img src="chai/fb.jpg" />
-									<img src="chai/youtube.jpg" />
-									<img src="chai/instagram.jpg" />
-								</span>
-							</nav>
+								</ul> -->
+									<span class="out-header">
+										<img src="chai/fb.jpg" />
+										<img src="chai/youtube.jpg" />
+										<img src="chai/instagram.jpg" />
+									</span>
+								</nav>
 
-							<!-- mainmenu close -->
+								<!-- mainmenu close -->
+
+							</div>
 
 						</div>
-
 					</div>
 				</div>
-			</div>
 
-		</header>
-		<!-- header close -->
-
+			</header>
+			<!-- header close -->
+		</center>
 		<!-- content begin -->
 		<div id="content" class="no-bottom no-top">
 
 			<!-- revolution slider begin -->
-			<section id="section-slider" class="fullwidthbanner-container" aria-label="section-slider">
+			<section id="section-slider" class="fullwidthbanner-container d-flex justify-content-center"
+				aria-label="section-slider">
 				<div id="xslider-revolution" style="
 					display: flex;
 					flex-direction: column;
@@ -134,9 +147,9 @@
 					align-items: center;
 					background-size: cover;
 					background-position: center; 
-					width: 100%;
+					
 					height: 100vh;
-					background-image: url(chai/HOME.png);">
+					background-image: url(chai/HOME.png);" class="hero-area">
 					<div class="col-lg-12 mr-1 d-flex flex-column">
 						<h1 class=" wow fadeInUp mt-2 home-dialog"
 							style="color: rgb(255, 255, 255); font-size: 70px; height: 130px !important;"
@@ -151,27 +164,7 @@
 							style="border-radius: 5px;background-color: whitesmoke; text-decoration: none; padding: 10px;font-weight: none !important;">Join
 							Chai
 							Community</a>
-						<!-- <h1>
-							
-						</h1> -->
-
 					</div>
-
-					<!-- <ul>
-						<li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
-							<img alt="" class="rev-slidebg" data-bgparallax="0" src="chai/HOME.png">
-							<div>
-								Our Creative Process
-							</div>
-							<div class="tp-caption ultra-big-white customin customout start" data-x="center">
-								Just Let It <span class="id-color">Flow</span>
-							</div>
-							<div class="tp-caption sfb" data-x="center" data-y="335" data-speed="400" data-start="800">
-								<a href="#" class="btn-slider">Our Portfolio
-								</a>
-							</div>
-						</li>
-					</ul> -->
 				</div>
 			</section>
 			<!-- revolution slider close -->
@@ -179,10 +172,10 @@
 
 			<!-- section begin -->
 			<section id="section-no-bg" data-bgcolor="#f6f2f2">
-				<div class="container">
+				<div class="container" style="background-color: #f6f2f2 !important;">
 					<div class="row align-items-center">
 						<div class="col-lg-12 d-flex justify-content-center align-items-center"
-							style="color: white !important;background-color: rgb(54, 54, 54); height: 100vh;">
+							style="width: 100%;color: white !important;background-color: rgb(54, 54, 54); height: 100vh;">
 							<h1 style="font-size:3rem">When it's digital, All simple!</h1>
 						</div>
 						<div class="col-lg-12 d-flex justify-content-center">
@@ -194,13 +187,140 @@
 				</div>
 			</section>
 			<!-- section close -->
+			<!-- <div class="flip-card">
+				<div class="front">
 
+					<p>Paul Anderson</p>
+					<p>Smart Web Developer</p>
+					<p>adpaul@gmail.com</p>
+					<p>Click to flip</p>
+				</div>
+				<div class="back">
+					<h1>About me</h1>
+					<hr />
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+						Ipsum has been the industry's standard dummy text ever since forever.</p>
+					<hr />
+					<p class="click">Click to flip</p>
+				</div>
+			</div> -->
 			<!-- section begin -->
 			<section id="section-no-bg" data-bgcolor="#f6f2f2">
 				<div class="container">
-					<div class="row justify-content-around">
+					<div class="row justify-content-around xcontainer-flip">
+						<!-- <div class="col-lg-6 ">
+							<div class="flip-card">
+								<div class="front">
+
+									<h1>Paul Anderson</h1>
+									<h2>Smart Web Developer</h2>
+									<b>adpaul@gmail.com</b>
+									<p>Click to flip</p>
+								</div>
+								<div class="back">
+									<h1>About me</h1>
+									<hr />
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+										Ipsum has been the industry's standard dummy text ever since forever.</p>
+									<hr />
+									<p class="click">Click to flip</p>
+								</div>
+							</div>
+						</div> -->
+
+
 						<!-- xd-flex flex-column align-items-start justify-content-center -->
-						<div class="col-lg-5 "
+						<!-- <div class="flip-card">
+							<div class="flip-card-inner">
+								<div class="flip-card-front">
+									<label class="text-lg">Keep your</label>
+									<br>
+									<label class="text-lg">previlege</label>
+									<br>
+									<label class="text-lg">easly in</label>
+									<br>
+									<label class="text-lg">your</label>
+									<br>
+									<label class="text-lg">pockets..</label>
+
+									<div class="flip-1-trigger d-flex justify-content-center align-items-center;z-index:-1;"
+										style="cursor: pointer;position: absolute;  bottom: 50px; right:50px;">
+										<img src="chai/plus-w.png" height="50" />
+									</div>
+								</div>
+								<div class="flip-card-back">
+									<label class="text-lg">Back</label>
+									<br>
+									<label class="text-lg">previlege</label>
+									<br>
+									<label class="text-lg">easly in</label>
+									<br>
+									<label class="text-lg">your</label>
+									<br>
+									<label class="text-lg">pockets..</label>
+
+									<div class="flip-1-trigger d-flex justify-content-center align-items-center"
+										style="position: absolute;  bottom: 50px; right:50px;">
+										<img src="chai/plus-w.png" height="50" />
+									</div>
+								</div>
+							</div>
+						</div> -->
+
+						<!-- <div class="flip-card-1 col-lg-6 "
+							style="color: rgb(0, 0, 0) !important;background-color: rgb(255, 255, 255); height: 90vh;padding: 30px;">
+							<div class="flip-1-front d-flex">
+								<label class="text-lg">Keep your</label>
+								<br>
+								<label class="text-lg">previlege</label>
+								<br>
+								<label class="text-lg">easly in</label>
+								<br>
+								<label class="text-lg">your</label>
+								<br>
+								<label class="text-lg">pockets..</label>
+
+								<div class="flip-1-trigger d-flex justify-content-center align-items-center;z-index:-1;"
+									style="cursor: pointer;position: absolute;  bottom: 50px; right:50px; background-color: red;">
+									<span>
+										<img src="chai/plus-w.png" height="50" />
+									</span>
+								</div>
+							</div> -->
+						<!-- <div class="flip-1-back">
+								<label class="text-lg">Back</label>
+								<br>
+								<label class="text-lg">previlege</label>
+								<br>
+								<label class="text-lg">easly in</label>
+								<br>
+								<label class="text-lg">your</label>
+								<br>
+								<label class="text-lg">pockets..</label>
+
+								<div class="flip-1-trigger d-flex justify-content-center align-items-center"
+									style="position: absolute;  bottom: 50px; right:50px;">
+									<img src="chai/plus-w.png" height="50" />
+								</div>
+							</div> -->
+						<!-- </div> -->
+
+
+
+						<!-- <div class="col-lg-6 "
+							style="position: relative; color: rgb(255, 255, 255) !important;background-color: rgb(15, 15, 15); height: 90vh;">
+							<label class="text-lg">Make things</label>
+							<label class="text-lg">worth <label class="text-lg"
+									style="color: rgb(102, 102, 102);">'sharing'</label>
+							</label>
+							<div class="d-flex justify-content-center align-items-center"
+								style="position: absolute;  bottom: 50px; right:50px;">
+								<img src="chai/plus-b.png" height="50" />
+							</div>
+						</div> -->
+
+
+						<div class="col-lg-6 "
 							style="position: relative; color: rgb(0, 0, 0) !important;background-color: rgb(255, 255, 255); height: 90vh;padding: 30px;">
 							<label class="text-lg">Keep your</label>
 							<br>
@@ -217,7 +337,7 @@
 								<img src="chai/plus-w.png" height="50" />
 							</div>
 						</div>
-						<div class="col-lg-5 "
+						<div class="col-lg-6 "
 							style="position: relative; color: rgb(255, 255, 255) !important;background-color: rgb(15, 15, 15); height: 90vh;">
 							<label class="text-lg">Make things</label>
 							<label class="text-lg">worth <label class="text-lg"
@@ -289,7 +409,7 @@
 					<div class="row justify-content-around">
 						<!-- xd-flex flex-column align-items-start justify-content-center -->
 
-						<div class="col-lg-5 "
+						<div class="col-lg-6 "
 							style="position: relative; color: rgb(255, 255, 255) !important;background-color: rgb(15, 15, 15); height: 90vh;">
 							<label class="text-lg">How </label><br />
 							<label class="text-lg">secure</label><br />
@@ -302,11 +422,12 @@
 							</div>
 						</div>
 
-						<div class="col-lg-5 "
+						<div class="col-lg-6 "
 							style="position: relative; color: rgb(0, 0, 0) !important;background-color: rgb(255, 255, 255); height: 90vh;padding: 30px;">
-							<label class="text-md" style="margin-top: 50px;">Wallet, Cash, Upi Apps, & </label> <br />
+							<label class="text-md" style="margin-top: 50px;">Wallet, Cash, Upi Apps, & </label>
+							<br />
 							<label class="text-md">Debit/Credit cards</label><br />
-							<label class="text-lg" style="margin-top: 200px;">There are</label>
+							<label class="text-lg" style="margin-top: 100px;">There are</label>
 							<label class="text-lg"> always</label><br />
 							<label class="text-lg">'Options' to</label><br />
 							<label class="text-lg">choose</label>
@@ -365,27 +486,118 @@
 					<div class="row justify-content-around">
 						<div class="col-lg-6 mr-1 d-flex justify-content-center align-items-center">
 							<div
-								style="display: flex;border:none;border-radius: 15px; background-color: rgb(154, 240, 114); width: 55%; height: 100px;overflow-wrap: break-word;">
-								<span style="color:rgb(0, 0, 0); font-size: 20px;">Get it on <br /> Google Play</span>
+								style="margin-top: 10px;display: flex;flex-direction: column;align-items: center;justify-content: center; border:none;border-radius: 15px; background-color: rgb(154, 240, 114); width: 65%; height: 100px;overflow-wrap: break-word;">
+								<span style="display: flex;color:rgb(0, 0, 0); font-size: 20px;">Get it on</span>
+								<span style="display: flex;color:rgb(0, 0, 0); font-size: 20px;">Google Play</span>
 							</div>
 							<!-- <img src="chai/play.png" class=" wow fadeInUp mt-2" data-wow-duration="1.5s" /> -->
 						</div>
-						<div class="col-lg-6 mr-1 d-flex justify-content-center">
-							<input type="button"
-								style="border:none;border-radius: 15px;background-color: black; width: 50%; height: 100px;color: white;font-size: 20px;overflow-wrap: break-word;"
-								value="Download on the App Store" />
-							<!-- <img src="chai/app.png" class=" wow fadeInUp mt-2" data-wow-duration="1.5s" /> -->
+						<div class="col-lg-6 mr-1 d-flex justify-content-center align-items-center">
+							<div
+								style="margin-top: 10px; display: flex;flex-direction: column;align-items: center;justify-content: center; border:none;border-radius: 15px; background-color: rgb(0, 0, 0); width: 65%; height: 100px;overflow-wrap: break-word;">
+								<span style="display: flex;color:rgb(255, 255, 255); font-size: 20px;">Download on
+									the</span>
+								<span style="display: flex;color:rgb(255, 255, 255); font-size: 20px;">App
+									Store</span>
+							</div>
+							<!-- <img src="chai/play.png" class=" wow fadeInUp mt-2" data-wow-duration="1.5s" /> -->
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- section close -->
-
+			<div style="height: 30vh;"></div>
 
 			<!-- f9f9f9 -->
 
 			<!-- footer begin -->
-			<footer data-bgcolor="black">
+			<div data-bgcolor="black">
+
+
+				<div class="container">
+					<div style="height: 10vh;"></div>
+					<div class="row d-flex justify-content-center">
+						<div class="col-lg-10 d-flex">
+							<div class="col-md-4">
+
+
+								<div class="xwidget xwidget_recent_post">
+									<a href="#">
+										<label class="footer-content">Latest News</label>
+									</a><br />
+									<a href="about.html"><label class="footer-content">About</label></a><br />
+									<a href="individual.html"><label class="footer-content">Individual</label></a><br />
+									<a href="business.html"><label class="footer-content">Business</label></a><br />
+									<a href="account.html"><label class="footer-content">Account &
+											Profile</label></a><br />
+									<a href="wallet.html"><label class="footer-content">Wallet &
+											Reward</label></a><br />
+									<a href="help.html"><label class="footer-content">Help Centre</label></a><br />
+								</div>
+							</div>
+							<div class="col-md-4">
+								<a href="dine.html"><label class="footer-content">Dine</label></a><br />
+								<a href="club.html"><label class="footer-content">Club</label></a><br />
+								<a href="social.html"><label class="footer-content">Social</label></a><br />
+								<a href="#"><label class="footer-content">Careers</label></a><br />
+							</div>
+							<div class="col-md-4">
+								<a class="footer-content" href="privacy-policy.html"><label
+										class="footer-content">Privacy
+										& Policy</label></a>
+								<a class="footer-content" href="terms-and-conditions.html"><label
+										class="footer-content">Terms &
+										Conditions</label></a>
+
+								<a class="footer-content" href="refund-policy.html"><label class="footer-content">Refund
+										Policy</label></a>
+								<a class="footer-content" href="faq.html"><label class="footer-content">Faq</label></a>
+								<a class="footer-content" href="contactus.html"><label class="footer-content">Contact
+										us</label></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+				<div class="subfooter">
+					<div class="container">
+						<div class="row ">
+							<div class="col-lg-12 d-flex justify-content-end">
+								<img src="chai/apple-bag.png" class="p-1" height="60" />
+								<img src="chai/play-bag.png" class="p-1" height="60" />
+							</div>
+						</div>
+						<div class="row mt-2" style="border-top:2px solid rgba(255, 255, 255, 0.61)  ;">
+							<div class="col-md-6 mt-3 d-flex align-items-center">
+								&copy; Copyright © 2022 W PLUS CHAICOMMUNITY PVT.LTD all rights reserved</div>
+							<div class="col-md-6 text-right mt-3 d-flex justify-content-end">
+								<div class="subfooter-items d-flex align-items-center justify-content-center">
+									Privacy &
+									Policy
+								</div>
+								<div class="subfooter-items d-flex align-items-center justify-content-center">
+									Terms &
+									Conditions
+								</div>
+								<div class="subfooter-items d-flex align-items-center justify-content-center">
+									Login
+								</div>
+								<div class="subfooter-items d-flex align-items-center justify-content-center"
+									style="border:  none !important;">
+									Vendor Login
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#" id="back-to-top"></a>
+			</div>
+
+			<!-- <footer data-bgcolor="black">
 				<div class="container">
 					<div class="row ">
 						<div class="col-lg-8 d-flex">
@@ -456,7 +668,8 @@
 					</div>
 				</div>
 				<a href="#" id="back-to-top"></a>
-			</footer>
+			</footer> -->
+
 			<!-- footer close -->
 		</div>
 	</div>
@@ -503,6 +716,11 @@
 	<script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 
 	<script>
+		// function flip() {
+		// 	$('.flip-card-1').toggleClass('flipped');
+		// 	console.log("Worked flip")
+		// }
+
 		jQuery(document).ready(function () {
 			// revolution slider
 			jQuery("#slider-revolution").revolution({
@@ -530,6 +748,12 @@
 				gridheight: 700,
 				disableProgressBar: "on"
 			});
+
+			$(".flip-1-trigger").click(function () {
+				console.log("clicked on flip-card-1")
+				$('.flip-card-1').toggleClass('flipped');
+			});
+
 		});
 	</script>
 

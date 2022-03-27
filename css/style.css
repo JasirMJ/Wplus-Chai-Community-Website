@@ -44,13 +44,11 @@
 /* @import url(https://fonts.googleapis.com/css?family=GIBold:300,300i,400,400i,600,600i,700,700i,800,800i);
 @import url(https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Allura); */
-@font-face {
-	font-family: 'GIBold';
-	/* src: url('/assets/fonts/glacial-indifference/142d1db816ff8e0442b736c6d3af44c1/b82a02b21dda923edfc130f599d4e77d/GIBold.otf') format('opentype'); */
-	src:url('/css/font-glacial-indifference/GlacialIndifference-Bold.otf');
-	font-weight: bold;
-	font-style: normal;
-}
+/* @font-face {
+	font-family: 'GIRegular';
+		src:url('/css/font-glacial-indifference/GlacialIndifference-Bold.otf');
+		font-style: normal;
+} */
 
 /* ================================================== */
 /* body */
@@ -78,6 +76,8 @@ body {
 	line-height: 1.8em;
 	padding: 0;
 	background:#f6f2f2;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .jamalleft{
@@ -1330,6 +1330,8 @@ footer {
 	footer a {
 	color: #cccccc;
 	/* text-decoration:none !important; */
+	font-family: GiRegular;
+	
 	}
 	
 	footer a:visited {
