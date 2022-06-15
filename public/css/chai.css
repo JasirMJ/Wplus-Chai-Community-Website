@@ -1,22 +1,31 @@
-.hero-area{
+.hero-area {
     width: 90%;
 }
 
-.text-md{
+.text-md {
     font-size: 25px;
     margin-top: 10px;
 }
-.text-lg{
+
+.text-l {
+    font-size: 65px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.text-lg {
     font-size: 80px;
     font-weight: 800;
     margin-top: 50px;
 }
-.text-xl{
+
+.text-xl {
     font-size: 90px;
     font-weight: 600;
     margin-left: 50px;
 }
-.logo-label{
+
+.logo-label {
     margin-top: 10px;
     font-family: "GIRegular";
 
@@ -25,36 +34,43 @@
     height: 10vh;
     /* font-family:none !important; */
 }
-.footer-content{
+
+.footer-content {
     font-family: "GIRegular";
     cursor: pointer;
     font-size: 20px;
     color: rgb(206, 206, 206);
     margin-top: 30px;
 }
-.heading-custom{
+
+.heading-custom {
     font-size: 42px;
     margin-top: 85px;
     margin-bottom: 85px;
 }
-.go-back{
-    margin: 60px 10px 0px 0px ;
+
+.go-back {
+    margin: 60px 10px 0px 0px;
 }
-.go-back-label{
+
+.go-back-label {
     font-size: 24px;
 }
-.body-content p{
+
+.body-content p {
     font-family: "GIRegular";
     font-size: 20px;
 }
-.subfooter{
+
+.subfooter {
     font-family: "GIRegular";
     /* font-weight: 600 ; */
     font-size: 14px;
 
     color: rgba(255, 255, 255, 0.788) !important;
 }
-.subfooter-items{
+
+.subfooter-items {
     margin: 10px;
 
     line-height: 16px;
@@ -69,7 +85,7 @@
     align-items: center;
 }
 
-.navigation{
+.navigation {
     /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     /* font-family: "GIBold"; */
     font-family: "GIRegular";
@@ -80,56 +96,66 @@
 
 @media only screen and (max-width: 600px) {
 
-    .heading-custom{
+    .heading-custom {
         font-size: 25px;
         margin-top: 20px;
         margin-bottom: 45px;
     }
-    .go-back-label{
+
+    .go-back-label {
         display: none;
         font-size: 18px;
         margin: 0px 5px 0px 0px;
     }
-    .footer-content{
+
+    .footer-content {
         font-size: 16px;
         color: rgb(206, 206, 206);
         margin: 10px;
     }
-    .hero-area{
+
+    .hero-area {
         width: 90%;
     }
-    .logo-label{
+
+    .logo-label {
         margin-top: -28px;
         font-family: "GIRegular";
-    
+
         font-size: 20px;
- 
+
         /* font-family:none !important; */
     }
-    .navigation{
-    font-family: "GIRegular";
+
+    .navigation {
+        font-family: "GIRegular";
 
         margin-top: -70px;
-        font-weight: 400 ;
+        font-weight: 400;
         font-size: 14px;
 
 
     }
-    .text-xl{
+
+    .text-xl {
         font-size: 40px;
         font-weight: 600;
-    margin-left: 10px;
+        margin-left: 10px;
 
     }
+
     .text-lg {
         font-size: 45px;
     }
-    .text-md{
+
+    .text-md {
         font-size: 23px;
     }
-    .logo{
+
+    .logo {
         margin-top: -24px !important;
     }
+
     .phoneimg {
         height: auto !important;
     }
