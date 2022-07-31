@@ -1,12 +1,12 @@
 .line {
   border-top: solid rgba(0, 0, 0, 0.5) 2px;
   border-bottom: solid rgba(0, 0, 0, 0.5) 2px;
-  width: 90%;
+  width: 98%;
   align-items: center;
 }
 
 .phoneimg {
-  margin-top: -350px;
+  margin-top: -200px;
   height: 120vh;
 }
 
